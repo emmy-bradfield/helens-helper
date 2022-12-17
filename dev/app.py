@@ -6,8 +6,7 @@ import os
 import random as rand
 from time import sleep
 import dotenv as env
-import openai as ai 
-import csv
+import openai as ai
 
 # Load the environment variables from the .env file
 env.load_dotenv()
@@ -67,7 +66,7 @@ if __name__ == '__main__':
         # If the user's input is 'goodbye', say "goodbye" and exit the program
         if USER.lower() == "goodbye":
             print("Bot: Okay, goodbye!")
-            quit()
+            os._exit(0)
         elif "EXPLORE" in USER:
             # Create a prompt to send to the AI which includes the user's input (USER) and specified mod requesting 
             # more information about that mod

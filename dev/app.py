@@ -6,7 +6,6 @@ import os
 import random as rand
 from time import sleep
 import dotenv as env
-import spacy as sp
 import openai as ai 
 import csv
 
@@ -26,9 +25,6 @@ WELCOME = """
                                                                                      _|                            
                                                                                      _|                            
 """
-
-# Load the pre-trained Natural Language Processing (NLP) model from spacy
-NLP = sp.load('en_core_web_sm')
 
 # Start the application
 if __name__ == '__main__':

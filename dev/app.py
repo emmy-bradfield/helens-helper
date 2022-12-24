@@ -10,7 +10,7 @@ import openai as ai
 
 # Load the environment variables from the .env file
 env.load_dotenv()
-OPENAI_API_KEY = os.getenv("API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ai.api_key = OPENAI_API_KEY
 
 # Define the welcome text to appear on load

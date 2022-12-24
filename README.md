@@ -37,7 +37,7 @@ python app.py
 5. To access OpenAI's Davinici you will need a API key. This is included in the .exe dist, but if you're rebuilding you can aquire one from [OpenAI's Website](https://openai.com/api/) for free
 6. Once you have the API key, simply create '.env' file in the dev directory, with
 ```
-API_KEY="<your-API-key>"
+OPENAI_API_KEY="<your-API-key>"
 ```
 7. Congrats; you're ready to go!
 
